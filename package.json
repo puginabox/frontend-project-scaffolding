@@ -29,6 +29,7 @@
     "gulp": "^3.8.11",
     "gulp-jscs": "^1.4.0",
     "gulp-jshint": "^1.9.2",
+    "gulp-util": "^3.0.4",
     "jshint-stylish": "^1.0.1"
   }
 }
