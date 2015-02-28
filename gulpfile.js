@@ -1,4 +1,6 @@
 var gulp = require('gulp);
+var jshint = require('gulp-jshint');
+var jscs = require('gulp-jscs');
                    
                    
                    
@@ -6,8 +8,14 @@ var gulp = require('gulp);
                    
                    
                    
-gulp.task('intro', function(){
-    console.log('Gulp ready...');
+gulp.task('vetting', function() {
+   return gulp
+    .src('[
+        './src/**/*.js',
+             './*.js'
+    ]')
+    .pipe(jscs())
+    .pipe(jshint(jshint.reporter('jshint-stylish', { verbose: true })));
     
     
 });
