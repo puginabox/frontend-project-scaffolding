@@ -11,7 +11,11 @@ gulp.task('vetting', function() {
     return gulp
     .src([
         './src/**/*.js',
+<<<<<<< HEAD
              './src/*.js'
+=======
+             './*.js'
+>>>>>>> c319414d20207b3d133e41f4a95c90f5908ef660
     ])
     .pipe(gulpif(args.verbose, gulpprint()))
     .pipe(jscs())
