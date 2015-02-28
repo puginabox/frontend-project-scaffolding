@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    outline: 0 !important
+}
+body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Droid Sans', sans-serif;
+    background: $bodyBG;
+    font-size: 12px; // for rems
+}
+h1, p {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    line-height: 31px;
+}
+h1 {
+
+}
+h2 {
+
+}
+p {
+
+}
+a {
+    text-decoration: none;
+    color: $neoBlack;
+    @include transition(all, 0.5s, ease-in-out);
+}
+a:hover {
+
+}
