@@ -21,3 +21,11 @@ $ bower install
 $ npm start
 ```
 
+## Project Manifest
+- dependencies
+    - needed by project at runtime
+        - express, angular, jquery, foundation, compass, modernizr
+        
+- devDependencies
+    - needed for development
+        - jshint, JSCS, uglify, compass, 

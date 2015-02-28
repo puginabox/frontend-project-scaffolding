@@ -1,5 +1,5 @@
 {
-  "name": "Pluralsight-Gulp",
+  "name": "Gulp-Scaffolding",
   "version": "0.1.0",
   "description": "Gulp.js Build Automation",
   "authors": [
@@ -21,8 +21,11 @@
     "compression": "^1.1.0",
     "cors": "^2.2.0",
     "express": "^4.9.3",
+    "modernizr": "^3.0.0-alpha.3",
     "morgan": "^1.1.1",
     "serve-favicon": "^2.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  }
 }
