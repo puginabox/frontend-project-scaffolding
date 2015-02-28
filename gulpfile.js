@@ -11,7 +11,7 @@ gulp.task('vetting', function() {
     return gulp
     .src([
         './src/**/*.js',
-             './*.js'
+             './src/*.js'
     ])
     .pipe(gulpif(args.verbose, gulpprint()))
     .pipe(jscs())

@@ -29,3 +29,9 @@ $ npm start
 - devDependencies
     - needed for development
         - jshint, JSCS, uglify, compass, 
+        
+        
+        
+## Project Tools
+    - check javascript: `gulp vetting`
+    - check javascript & list files being tracked: `gulp vetting --verbose`
